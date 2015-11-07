@@ -1,4 +1,4 @@
-package diff_equation;
+﻿package diff_equation;
 
 import static java.lang.Math.E;
 import static java.lang.String.format;
@@ -107,12 +107,12 @@ public class ThreeDiagProgonka {
         }
         //printCoeffPQ();
         
-        // Вычислим искомое решение u[i] по найденным p[i] и q[i]:
+        // Вычислим искомое решение u[i]:
         u[n] = q[n];
         for(int i = n-1; i >= 0 ; i--) u[i] = q[i] - p[i]*u[i+1];
         //printControlPoints();
         //printResult();
-        
+        System.out.println("\nAlgorythm is finished");
     }
     
     public void printSLAU(){
