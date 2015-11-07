@@ -1,4 +1,4 @@
-package diff_equation;
+﻿package diff_equation;
 
 import static java.lang.Math.E;
 import static java.lang.String.format;
@@ -25,12 +25,12 @@ public class ThreeDiagProgonka {
 
     public static void main(String[] args) {
     //1)
-//        Scanner sc = new Scanner (System.in);
-//        System.out.println("Введите число разбиений отрезка (n):");
-//        int number = sc.nextInt();
-//        ThreeDiagProgonka myProgonka = new ThreeDiagProgonka(number);
+
+        System.out.println("число разбиений отрезка (n): 5");
+
+        ThreeDiagProgonka myProgonka = new ThreeDiagProgonka(5);
 //        myProgonka.printControlPoints();
-//        myProgonka.printSLAU();
+        myProgonka.printSLAU();
 //        myProgonka.printCoeffPQ();
 //        myProgonka.printResult();
 //        myProgonka.printNormaNevyaazkiL1(); 
