@@ -25,12 +25,12 @@ public class ThreeDiagProgonka {
 
     public static void main(String[] args) {
     //1)
-//        Scanner sc = new Scanner (System.in);
-//        System.out.println("Введите число разбиений отрезка (n):");
-//        int number = sc.nextInt();
-//        ThreeDiagProgonka myProgonka = new ThreeDiagProgonka(number);
+
+        System.out.println("число разбиений отрезка (n): 5");
+
+        ThreeDiagProgonka myProgonka = new ThreeDiagProgonka(5);
 //        myProgonka.printControlPoints();
-//        myProgonka.printSLAU();
+        myProgonka.printSLAU();
 //        myProgonka.printCoeffPQ();
 //        myProgonka.printResult();
 //        myProgonka.printNormaNevyaazkiL1(); 
@@ -56,11 +56,11 @@ public class ThreeDiagProgonka {
         
     //4)    
         //Продолжительность вычислений от n
-//        for(int i = 5; i < 100; i=i+5){ 
-//            long t1 = System.nanoTime();
-//            ThreeDiagProgonka threeDiagProgonka = new ThreeDiagProgonka(3);
-//            System.out.println((System.nanoTime() - t1)/1000); 
-//        }
+        for(int i = 5; i < 100; i=i+5){ 
+            long t1 = System.nanoTime();
+            ThreeDiagProgonka threeDiagProgonka = new ThreeDiagProgonka(3);
+            System.out.println((System.nanoTime() - t1)/1000); 
+        }
         
     }
     
