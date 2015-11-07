@@ -56,11 +56,11 @@ public class ThreeDiagProgonka {
         
     //4)    
         //Продолжительность вычислений от n
-//        for(int i = 5; i < 100; i=i+5){ 
-//            long t1 = System.nanoTime();
-//            ThreeDiagProgonka threeDiagProgonka = new ThreeDiagProgonka(3);
-//            System.out.println((System.nanoTime() - t1)/1000); 
-//        }
+        for(int i = 5; i < 100; i=i+5){ 
+            long t1 = System.nanoTime();
+            ThreeDiagProgonka threeDiagProgonka = new ThreeDiagProgonka(3);
+            System.out.println((System.nanoTime() - t1)/1000); 
+        }
         
     }
     
