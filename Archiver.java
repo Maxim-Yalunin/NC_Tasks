@@ -12,7 +12,7 @@ package ru.ncedu.yalunin.archiver;
  * 5. To write comment enter: "comment-w", name of Zip-file and comment
  * 6. To read comment enter: "comment-r" and name of Zip-file 
  * 
- * @author Yalunin Maxim
+ * @author Maxim Yalunin
  */
 import java.io.*;
 import java.util.zip.*;
